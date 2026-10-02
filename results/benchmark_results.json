@@ -1,0 +1,58 @@
+[
+    {
+        "Archivo": "prueba_1_pequena.txt",
+        "Orig (B)": 64,
+        "LZ+Huff (B)": 222,
+        "Ratio Propio": 0.29,
+        "Ahorro (%)": -246.88,
+        "T.Comp (ms)": 2.7,
+        "T.Descomp (ms)": 4.33,
+        "Gzip (B)": 59,
+        "Ratio Gzip": 1.08,
+        "T.Gzip (ms)": 4.64,
+        "Weissman": 0.4108,
+        "SHA256 Match": "OK (Match)"
+    },
+    {
+        "Archivo": "prueba_2_texto_natural.txt",
+        "Orig (B)": 102400,
+        "LZ+Huff (B)": 2632,
+        "Ratio Propio": 38.91,
+        "Ahorro (%)": 97.43,
+        "T.Comp (ms)": 217.42,
+        "T.Descomp (ms)": 27.63,
+        "Gzip (B)": 1919,
+        "Ratio Gzip": 53.36,
+        "T.Gzip (ms)": 2.08,
+        "Weissman": 0.0993,
+        "SHA256 Match": "OK (Match)"
+    },
+    {
+        "Archivo": "prueba_3_alta_repeticion.txt",
+        "Orig (B)": 102400,
+        "LZ+Huff (B)": 1124,
+        "Ratio Propio": 91.1,
+        "Ahorro (%)": 98.9,
+        "T.Comp (ms)": 177.78,
+        "T.Descomp (ms)": 22.7,
+        "Gzip (B)": 914,
+        "Ratio Gzip": 112.04,
+        "T.Gzip (ms)": 2.13,
+        "Weissman": 0.1189,
+        "SHA256 Match": "OK (Match)"
+    },
+    {
+        "Archivo": "prueba_4_baja_repeticion.txt",
+        "Orig (B)": 102400,
+        "LZ+Huff (B)": 86138,
+        "Ratio Propio": 1.19,
+        "Ahorro (%)": 15.88,
+        "T.Comp (ms)": 736.85,
+        "T.Descomp (ms)": 189.21,
+        "Gzip (B)": 85234,
+        "Ratio Gzip": 1.2,
+        "T.Gzip (ms)": 5.9,
+        "Weissman": 0.2661,
+        "SHA256 Match": "OK (Match)"
+    }
+]

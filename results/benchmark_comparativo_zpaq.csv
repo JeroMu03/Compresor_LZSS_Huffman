@@ -1,0 +1,5 @@
+Archivo,Orig (B),LZ+Huff (B),Ratio Propio,T.Propio (ms),W.Propio,ZPAQ (B),Ratio ZPAQ,T.ZPAQ (ms),W.ZPAQ,Gzip (B),Ratio Gzip,T.Gzip (ms),SHA256 Match
+prueba_1_pequena.txt,64,222,0.29,3.45,0.3628,1240,0.05,87.33,0.018,59,1.08,5.42,OK
+prueba_2_texto_natural.txt,102400,2632,38.91,404.97,0.1311,3089,33.15,29.15,0.1989,1919,53.36,2.94,OK
+prueba_3_alta_repeticion.txt,102400,1124,91.1,212.38,0.1535,3972,25.78,57.46,0.0574,914,112.04,2.75,OK
+prueba_4_baja_repeticion.txt,102400,86138,1.19,821.5,0.2726,103754,0.99,34.05,0.4305,85234,1.2,6.35,OK
