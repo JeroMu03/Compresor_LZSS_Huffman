@@ -1,0 +1,5 @@
+Archivo,Orig (B),LZ+Huff (B),Ratio Propio,Ahorro (%),T.Comp (ms),T.Descomp (ms),Gzip (B),Ratio Gzip,T.Gzip (ms),Weissman,SHA256 Match
+prueba_1_pequena.txt,64,222,0.29,-246.88,2.7,4.33,59,1.08,4.64,0.4108,OK (Match)
+prueba_2_texto_natural.txt,102400,2632,38.91,97.43,217.42,27.63,1919,53.36,2.08,0.0993,OK (Match)
+prueba_3_alta_repeticion.txt,102400,1124,91.1,98.9,177.78,22.7,914,112.04,2.13,0.1189,OK (Match)
+prueba_4_baja_repeticion.txt,102400,86138,1.19,15.88,736.85,189.21,85234,1.2,5.9,0.2661,OK (Match)
